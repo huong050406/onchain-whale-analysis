@@ -1,0 +1,16 @@
+
+pandas
+numpy
+networkx
+matplotlib
+seaborn
+scipy
+scikit-learn
+statsmodels
+plotly
+pyvis
+streamlit
+python-dotenv
+pyarrow
+pytest
+
