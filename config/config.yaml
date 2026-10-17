@@ -1,0 +1,34 @@
+
+# Blueprint 08 - Cau hinh nghien cuu
+# Gia tri null nghia la chua duoc nhom thong nhat
+
+project:
+  name: "On-chain Network & Whale Contagion Analysis"
+  version: "0.1.0"
+
+blockchain:
+  network: null
+  token: null
+  token_contract: null
+
+research:
+  start_date: null
+  end_date: null
+  frequency: null
+  sampling_method: null
+
+data_sources:
+  onchain: null
+  market: null
+  wallet_labels: null
+
+graph:
+  directed: true
+  edge_weight: "transaction_value"
+
+outputs:
+  raw_data: "data/raw"
+  interim_data: "data/interim"
+  processed_data: "data/processed"
+  tables: "outputs/tables"
+  figures: "outputs/figures"
